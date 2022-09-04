@@ -1,0 +1,16 @@
+//sum of n natural numbers
+
+
+n=int(input())                         
+def SUM_OF(n):
+    sum=0
+    while (n>0):
+        sum += n
+        n -= 1
+    return sum
+print(SUM_OF(n))
+
+-----------------------------------------
+    
+    
+  
